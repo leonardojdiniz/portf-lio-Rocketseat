@@ -1,0 +1,59 @@
+main{
+  max-width: 144.0rem;
+  background-image: url(/Assets/Image/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  
+}
+
+header{
+  width: 680px;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header h3{
+  font: var(--subtitle);
+  color: var(--gray-500-base-color);
+  padding-block: 56px 8px;
+  padding-bottom: 0.8rem;
+    span{
+    color: var(--red-brand-color);}
+}
+
+header h1{
+  color: var(--gray-600-base-color);
+  font: var(--title-lg);
+}
+
+header p{
+  text-align: center;
+  padding-block: 20px 80px;
+}
+
+.logos{
+  display: flex;
+  gap: 16px;
+  
+}
+
+.logos a{
+  text-decoration: none;
+  font: var(--text-md);
+  color: var(--gray-500-base-color);
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  background-color: var(--gray-300-base-color)  
+}
+
+.icon{
+  padding-block: 94px 58px;
+}

@@ -1,0 +1,36 @@
+.portifolio{
+  padding-top: 53px;
+  width: 1040px;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card h4{
+  font: var(--title-sm);
+  color: var(--gray-600-base-color);
+  padding-block: 20px 8px;
+
+}
+
+.card img{
+  border-radius: 8px;
+  width: 306px;
+  height: 156px;
+  object-fit: contain;
+  
+}
+
+.card{
+  
+  background-color: var(--gray-300-base-color);
+  border-radius: 12px;
+  padding: 12px;
+  width: 330px;
+  height: 280px;
+}
+
+.card:hover{
+  border: 1.5px solid var(--gray-400-base-color)
+
+}

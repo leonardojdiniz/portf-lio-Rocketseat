@@ -1,0 +1,109 @@
+footer{
+  padding-block: 128px 200px;
+  background-image: url(/Assets/Image/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer .title h3{
+  color: var(--purple-brand-color);
+}
+
+
+#sociais{
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px
+}
+
+
+footer .button a{
+  
+  border-radius: 8px;
+  background-color: var(--gray-300-base-color);
+  width: 400px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  
+}
+
+/*.image span{
+  background-image: url(/Assets/Botões/Vector\ \(1\).svg);
+  width: 23px;
+  height: 23px;
+
+  &:hover{
+    background-image: url(/Assets/Botões/LInk\ Blue.svg);
+    width: 23px;
+    height: 23px;;
+  }
+}
+*/
+a span{
+  background-image: url(/Assets/Botões/Vector\ \(1\).svg);
+  width: 23px;
+  height: 23px;
+
+  &:hover{
+    background-image: url(/Assets/Botões/LInk\ Blue.svg);
+    width: 23px;
+    height: 23px;;
+  }
+}
+
+.image .instagram{
+  background-image: url(/Assets/Icons/Inst.svg);
+  width: 23px;
+  height: 23px;
+
+  &:hover{
+    background-image: url(/Assets/Icons/instablue.svg);
+    width: 23px;
+    height: 23px;;
+  }
+}
+
+.image .git{
+  background-image: url(/Assets/Botões/Vector\ \(2\).svg);
+  width: 23px;
+  height: 23px;
+
+  &:hover{
+    background-image: url(/Assets/Botões/Gitblue.svg);
+    width: 23px;
+    height: 23px;;
+  }
+}
+
+.image .email{
+  background-image: url(/Assets/Botões/Vector\ \(2\)\ -\ cópia.svg);
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+
+  &:hover{
+    background-image: url(/Assets/Botões/emailblue.svg);
+    width: 23px;
+    height: 23px;;
+  }
+}
+
+.button a:hover{
+  border: solid 1.5px var(--blue-brand-color);
+
+  
+}
+
+.image{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
